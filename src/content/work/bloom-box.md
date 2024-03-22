@@ -1,23 +1,42 @@
 ---
-title: Bloom Box
+title: Kliender Clothing Website
 publishDate: 2019-12-01 00:00:00
 img: /assets/stock-2.png
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: banner
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+ A e-commerce website for clothing brand. 
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - E-commerce
+  - Taildwind
+  - Wordpress
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+**Title: Introducing Kiender Clothing: Your Ultimate Fashion Destination**
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Welcome fashionistas, trendsetters, and style enthusiasts! We are thrilled to unveil the latest addition to the online fashion world: Kiender Clothing. 🎉 Dive into a world of chic styles, trendy cuts, and timeless classics as we introduce you to our brand-new e-commerce website, designed to cater to your every fashion need.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+**About the Project:**
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Developed by the dynamic duo of Damidu Sandipa and Sathira Sri Sathsara, our mission with the Kiender Clothing website was clear: to bring the essence of our clothing brand to life in the digital realm. We wanted to create more than just a website; we aimed to craft an immersive online experience where users could explore our latest collections and effortlessly shop for their favorite pieces.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+**Technologies Used:**
+
+- *Frontend Styling:* To ensure a sleek and modern design, we turned to Tailwind CSS. This powerful utility-first CSS framework allowed us to create a visually stunning website that reflects the essence of Kiender Clothing.
+
+- *Ecommerce Platform:* For the backbone of our online store, we chose the dynamic duo of WordPress and WooCommerce. With their combined strength, we could manage products, process orders, and handle transactions seamlessly, providing our customers with a smooth shopping experience.
+
+**Features That Make Us Shine:**
+
+- *Browse Collections:* Step into our virtual showroom and explore our latest fashion collections. From casual wear to statement pieces, we've curated a selection that caters to every style preference.
+
+- *Online Store:* Say goodbye to crowded malls and long checkout lines. With our online store powered by WooCommerce, you can shop for your favorite clothing items from the comfort of your own home.
+
+- *User-friendly Design:* We believe that fashion should be accessible to everyone. That's why we designed our website with a user-centric approach, ensuring easy navigation and a seamless browsing experience for our visitors.
+
+**Contact Us:**
+
+Got questions, feedback, or just want to say hello? We'd love to hear from you! Drop us a line at admin@enforcers.lk, and our team will be happy to assist you.
+
+**Thank You for Visiting KienderClothing.com:**
+
+As you explore our website, we hope you find inspiration, excitement, and, of course, your next favorite outfit. From all of us at Kiender Clothing, thank you for choosing to embark on this fashion journey with us. Happy shopping! 🛍️👗✨

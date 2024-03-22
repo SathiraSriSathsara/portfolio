@@ -1,22 +1,61 @@
 ---
-title: Duvet Genius
+title: Evelynedge photography website
 publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.png
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img_alt: banner
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  A dynamic portforlio website for Evelynedge photography
 tags:
-  - Design
-  - Dev
-  - Branding
+  - PHP
+  - MYSQL
+  - HTML & CSS
+  - Boostrap
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+**Title: Introducing Evelyn Edge: Your Go-To Photographer Portfolio Website**
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Are you a budding photographer looking for the perfect platform to showcase your stunning portfolio? Look no further! Welcome to Evelyn Edge Photography, your ultimate destination for presenting your captivating imagery to the world. 📸✨
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+**What is Evelyn Edge Photography?**
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Evelyn Edge Photography is a dynamic website designed specifically for photographers like you to exhibit your work in a professional and visually appealing manner. With its sleek design and user-friendly interface, it's the ideal space to highlight your talent and attract potential clients.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+**Features That Make Us Shine:**
+
+1. **Portfolio Showcase:** Display your photography portfolio effortlessly with categorized albums and individual images. Whether you specialize in portraits, landscapes, or events, this feature allows you to organize your work seamlessly.
+
+2. **Contact Form:** Make it easy for potential clients to reach out to you with inquiries or booking requests through the integrated contact form. Communication is key, and we ensure that your clients can connect with you effortlessly.
+
+3. **About Section:** Share your story, professional background, and unique photography style in the About section. Let your personality shine through as you introduce yourself to visitors and potential collaborators.
+
+4. **Responsive Design:** Your website should look stunning on every device, and that's exactly what we offer. Our responsive design ensures that your portfolio looks fantastic whether it's viewed on a desktop, tablet, or mobile phone.
+
+**Getting Started with Evelyn Edge Photography:**
+
+**Requirements:**
+To get started, all you need is a web server with PHP support and a MySQL database. Don't worry; we've made the setup process easy for you!
+
+**Installation:**
+1. Clone the repository using the provided link.
+2. Set up your MySQL database by importing the provided database.sql file.
+3. Configure the database connection in the config.php file.
+4. Upload your portfolio images to the images directory.
+5. Start your web server and visit the website in your browser.
+
+**Configuration:**
+Customize your website by modifying the config.php file, updating the about.php content, configuring the contact.php email address, and adding or replacing portfolio images in the images directory.
+
+**Usage:**
+Once your website is set up, visit it in your browser and start exploring! Browse through your portfolio, learn more about you in the About section, and use the contact form to connect with potential clients.
+
+**Contributing:**
+We welcome contributions from fellow developers! If you're interested in improving this project, simply fork the repository and submit a pull request.
+
+**License:**
+This project is licensed under the MIT License, ensuring flexibility and freedom for all users. Refer to the LICENSE file for more details.
+
+**Ready to Showcase Your Talent?**
+
+With Evelyn Edge Photography, you have everything you need to captivate your audience and elevate your photography career. Don't wait any longer; let your creativity shine and start building your online presence today! 🚀✨
+
+Visit [EvelynEdge.com](https://evelynedge.com/) now !
