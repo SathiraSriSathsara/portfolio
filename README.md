@@ -3,7 +3,9 @@
 https://sathira.pw/
 
 ```sh
-git clone 
+git clone https://github.com/SathiraSriSathsara/portfolio.git
+npm install
+npm run dev
 ```
 
 ## 🧞 Commands
