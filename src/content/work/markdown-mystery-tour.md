@@ -1,35 +1,42 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
+title: Rotoract midcity colombo Club Website 
+publishDate: 2024-03-22 00:00:00
 img: /assets/stock-1.png
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: banner
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Portfolio website for Rotoract colombo midcity  club, showcasing the club's history, mission, vision and other related things.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Astro
+  - HTML
+  - Taildwind CSS
 ---
 
-## Level-two heading
+**Title: Building a Vibrant Online Presence: Rotaract Club of Colombo MidCity's Portfolio Website Journey**
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+Hey everyone! Today, I'm excited to share a bit about a recent project I worked on for the Rotaract Club of Colombo MidCity. 🎉 We collaborated to create a stunning portfolio website that truly reflects the club's spirit and mission. Let's dive into how it all came together!
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+**Getting Started:**
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+First things first, we brainstormed ideas on how to best represent the club online. We wanted a website that was not only visually appealing but also easy to navigate. After some discussion, we decided to go with a clean and modern design using HTML, Tailwind CSS, and Atro.js. 💻
 
-### Level-three heading
+**Crafting the Design:**
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+With our tools in hand, we began crafting the website's layout. We wanted it to be vibrant and welcoming, so we played around with colors and typography until we found the perfect combination. Each section of the website was carefully designed to showcase the club's various activities and initiatives. 🎨
 
-### Level-three heading
+**Bringing it to Life:**
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Once the design was finalized, it was time to bring it to life! Using HTML, we structured the website's layout, making sure everything flowed seamlessly. Tailwind CSS came in handy for styling, allowing us to create beautiful components with ease. And with Atro.js, we added interactive elements that made the website feel dynamic and engaging. 🚀
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+**Adding the Finishing Touches:**
 
-#### Level-four heading
+No website is complete without the finishing touches! We made sure to optimize the website for both desktop and mobile devices, ensuring that everyone could access it easily. We also integrated social media buttons so visitors could connect with the club across various platforms. And of course, we made sure the website was user-friendly, with clear navigation and intuitive design. 🔍
 
-- We noted this
-- And also this other point
+**The Final Result:**
+
+After weeks of hard work and collaboration, we finally unveiled the Rotaract Club of Colombo MidCity's new portfolio website. The response has been overwhelmingly positive, with members and visitors alike praising the website's design and functionality. It's been amazing to see how the website has helped the club connect with its community in new and exciting ways. 🌟
+
+**In Conclusion:**
+
+Working on this project has been a truly rewarding experience. Not only did we create a beautiful website for the Rotaract Club of Colombo MidCity, but we also strengthened our partnership and made a positive impact on the club's online presence. It just goes to show what can be achieved when creativity and collaboration come together. Here's to many more successful projects in the future! 🥂
+
+Thanks for reading, and until next time! ✨
