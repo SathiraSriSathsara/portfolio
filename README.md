@@ -4,6 +4,7 @@ https://sathira.pw/
 
 ```sh
 git clone https://github.com/SathiraSriSathsara/portfolio.git
+cd portfolio
 npm install
 npm run dev
 ```
