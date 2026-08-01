@@ -2,6 +2,9 @@
 
 A production-oriented, server-rendered personal portfolio and Markdown publishing system built with PHP 8.2, MySQL, PDO, League CommonMark, and HTMLPurifier. It includes a responsive three-column public site, searchable blog, secure admin editor, scheduled publishing, technical SEO, RSS, sitemap, and machine-readable discovery files.
 
+[![Screenshot](https://res.cloudinary.com/dhqcnszvn/image/upload/v1785597559/Screenshot_2026-08-01_204905_wogyfz.png)](https://res.cloudinary.com/dhqcnszvn/image/upload/v1785597559/Screenshot_2026-08-01_204905_wogyfz.png)
+
+
 ## Requirements
 
 - PHP 8.2+ with PDO MySQL, mbstring, fileinfo, iconv, JSON, DOM, and GD (recommended for media)
