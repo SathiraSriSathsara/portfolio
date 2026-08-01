@@ -18,6 +18,7 @@ return [
         'email' => 'hello@example.com', 'website' => $_ENV['APP_URL'] ?? 'http://localhost:8000',
         'github' => 'https://github.com/', 'linkedin' => 'https://linkedin.com/',
         'x' => 'https://x.com/', 'facebook' => 'https://facebook.com/',
+        'cv_file' => 'assets/documents/resume-sathira-sri-sathsara.pdf',
         'stack' => ['PHP', 'MySQL', 'JavaScript', 'Docker', 'Git'],
     ],
 ];

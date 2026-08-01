@@ -87,8 +87,25 @@
     min-height: calc(100vh - (var(--space-5) * 4));
 }
 
-.site-shell > .right-nav .button {
+.site-shell > .right-nav .see-more-link {
     margin-top: auto;
+}
+
+.see-more-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: var(--color-accent);
+    font-weight: 750;
+    letter-spacing: .02em;
+}
+
+.see-more-link:hover {
+    color: var(--color-accent-hover);
+}
+
+.cv-download {
+    margin-top: var(--space-5);
 }
 
 @media (max-width: 1050px) {
@@ -102,7 +119,7 @@
         min-height: 0;
     }
 
-    .site-shell > .right-nav .button {
+    .site-shell > .right-nav .see-more-link {
         margin-top: var(--space-5);
     }
 }
