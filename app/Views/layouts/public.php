@@ -1,2 +1,31 @@
 <?php $profile = is_array($profile ?? null) ? $profile : []; ?>
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($title??'Portfolio') ?> · <?= e($profile['full_name']??$profile['name']??'Sathira Sri Sathsara') ?></title><meta name="description" content="<?= e($description??$profile['bio']??'Software engineering portfolio') ?>"><link rel="canonical" href="<?= e($canonical??url()) ?>"><meta property="og:type" content="<?= isset($post)?'article':'website' ?>"><meta property="og:title" content="<?= e($title??'Portfolio') ?>"><meta property="og:description" content="<?= e($description??$profile['bio']??'Software engineering portfolio') ?>"><meta property="og:url" content="<?= e($canonical??url()) ?>"><meta name="twitter:card" content="summary"><link rel="alternate" type="application/rss+xml" title="RSS" href="<?= e(url('rss.xml')) ?>"><link rel="manifest" href="<?= e(url('manifest.webmanifest')) ?>"><link rel="stylesheet" href="<?= e(asset('css/app.css')) ?>"><link rel="stylesheet" href="<?= e(asset('css/public-layout.css')) ?>"><script defer src="<?= e(asset('js/app.js')) ?>"></script></head><body><a class="skip" href="#content">Skip to content</a><div class="site-shell"><?php require BASE_PATH.'/app/Views/components/profile.php'?><main id="content" class="content card" tabindex="-1"><?= $content ?></main><?php require BASE_PATH.'/app/Views/components/right-nav.php'?></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><?= e($title ?? 'Portfolio') ?> · <?= e($profile['full_name'] ?? $profile['name'] ?? 'Sathira Sri Sathsara') ?></title>
+  <meta name="description" content="<?= e($description ?? $profile['bio'] ?? 'Software engineering portfolio') ?>">
+  <link rel="icon" type="image/png" href="<?= e(asset('images/favicon-bw.png')) ?>">
+  <link rel="apple-touch-icon" href="<?= e(asset('images/favicon-bw.png')) ?>">
+  <link rel="canonical" href="<?= e($canonical ?? url()) ?>">
+  <meta property="og:type" content="<?= isset($post) ? 'article' : 'website' ?>">
+  <meta property="og:title" content="<?= e($title ?? 'Portfolio') ?>">
+  <meta property="og:description" content="<?= e($description ?? $profile['bio'] ?? 'Software engineering portfolio') ?>">
+  <meta property="og:url" content="<?= e($canonical ?? url()) ?>">
+  <meta name="twitter:card" content="summary">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="<?= e(url('rss.xml')) ?>">
+  <link rel="manifest" href="<?= e(url('manifest.webmanifest')) ?>">
+  <link rel="stylesheet" href="<?= e(asset('css/app.css')) ?>">
+  <link rel="stylesheet" href="<?= e(asset('css/public-layout.css')) ?>">
+  <script defer src="<?= e(asset('js/app.js')) ?>"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="site-shell">
+    <?php require BASE_PATH . '/app/Views/components/profile.php' ?>
+    <main id="content" class="content card" tabindex="-1"><?= $content ?></main>
+    <?php require BASE_PATH . '/app/Views/components/right-nav.php' ?>
+  </div>
+</body>
+</html>

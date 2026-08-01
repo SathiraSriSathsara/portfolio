@@ -17,6 +17,7 @@ return [
         'company' => 'Independent', 'location' => 'Sri Lanka', 'timezone' => 'Asia/Colombo',
         'email' => 'hello@example.com', 'website' => $_ENV['APP_URL'] ?? 'http://localhost:8000',
         'github' => 'https://github.com/', 'linkedin' => 'https://linkedin.com/',
+        'x' => 'https://x.com/', 'facebook' => 'https://facebook.com/',
         'stack' => ['PHP', 'MySQL', 'JavaScript', 'Docker', 'Git'],
     ],
 ];
