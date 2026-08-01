@@ -1,0 +1,2 @@
+<?php $recentPosts = is_array($recentPosts ?? null) ? $recentPosts : []; ?>
+<aside class="right-nav card" aria-label="Content navigation"><nav><a class="nav-item" href="<?= e(url('about')) ?>">About me <span>→</span></a><h2>Blog Posts</h2><?php if($recentPosts):?><ul><?php foreach($recentPosts as $recent):?><li><a href="<?= e(url('blog/'.$recent['slug'])) ?>"><?= e($recent['title']) ?></a></li><?php endforeach?></ul><?php else:?><p class="muted">Posts are coming soon.</p><?php endif?><a class="button full" href="<?= e(url('blog')) ?>">See More</a></nav></aside>

@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    server_name example.com;
+    root /var/www/portfolio/public;
+    index index.php;
+    location / { try_files $uri $uri/ /index.php?$query_string; }
+    location ~ \.php$ { include fastcgi_params; fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; fastcgi_pass unix:/run/php/php8.2-fpm.sock; }
+    location ~* /uploads/.*\.(php|phtml|phar)$ { deny all; }
+    location ~ /\. { deny all; }
+    location ~* \.(css|js|png|jpe?g|webp|avif|ico)$ { expires 1y; add_header Cache-Control "public, immutable"; }
+}

@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+    ServerName example.com
+    DocumentRoot /var/www/portfolio/public
+    <Directory /var/www/portfolio/public>
+        AllowOverride All
+        Require all granted
+    </Directory>
+    ErrorLog ${APACHE_LOG_DIR}/portfolio-error.log
+    CustomLog ${APACHE_LOG_DIR}/portfolio-access.log combined
+</VirtualHost>

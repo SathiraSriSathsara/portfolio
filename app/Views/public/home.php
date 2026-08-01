@@ -1,0 +1,2 @@
+<article class="markdown"><p class="eyebrow">Portfolio / About</p><?= $html ?></article>
+<script type="application/ld+json"><?= json_encode(['@context'=>'https://schema.org','@type'=>'ProfilePage','mainEntity'=>['@type'=>'Person','name'=>$profile['full_name']??$profile['name'],'jobTitle'=>$profile['professional_title']??$profile['title'],'url'=>url()]],JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE) ?></script>

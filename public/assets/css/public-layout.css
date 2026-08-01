@@ -1,0 +1,67 @@
+/* The public page is one continuous surface divided by subtle rules. */
+.site-shell {
+    gap: 0;
+}
+
+.site-shell > .card {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.site-shell > .profile {
+    border-right: 1px solid var(--color-border);
+}
+
+.site-shell > .right-nav {
+    border-left: 1px solid var(--color-border);
+    min-height: calc(100vh - (var(--space-5) * 2));
+}
+
+.site-shell > .right-nav nav {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - (var(--space-5) * 4));
+}
+
+.site-shell > .right-nav .button {
+    margin-top: auto;
+}
+
+@media (max-width: 1050px) {
+    .site-shell > .right-nav {
+        border-top: 1px solid var(--color-border);
+        border-left: 0;
+        min-height: 0;
+    }
+
+    .site-shell > .right-nav nav {
+        min-height: 0;
+    }
+
+    .site-shell > .right-nav .button {
+        margin-top: var(--space-5);
+    }
+}
+
+@media (max-width: 760px) {
+    .profile,
+    .right-nav,
+    .content {
+        margin-bottom: 0;
+    }
+
+    .site-shell > .profile {
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .site-shell > .content {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .site-shell > .right-nav {
+        border-top: 0;
+    }
+}
