@@ -17,7 +17,7 @@ $navItems = [
   <link rel="stylesheet" href="<?= e(asset('css/admin-modern.css')) ?>">
   <script defer src="<?= e(asset('js/admin.js')) ?>"></script>
 </head>
-<body>
+<body class="admin-dashboard">
   <a class="skip" href="#content">Skip to content</a>
   <div class="admin-shell">
     <aside class="admin-nav">
@@ -38,7 +38,17 @@ $navItems = [
       </nav>
       <form method="post" action="<?= e(url('admin/logout')) ?>"><?= csrf_field() ?><button class="admin-signout"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4v16h6M14 8l4 4-4 4M18 12H8"/></svg><span>Sign out</span></button></form>
     </aside>
-    <main id="content" class="admin-content"><?= $content ?></main>
+    <main id="content" class="admin-main">
+      <header class="admin-commandbar">
+        <form class="admin-search" action="<?= e(url('search')) ?>" method="get">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg>
+          <label class="sr-only" for="admin-search">Search portfolio content</label>
+          <input id="admin-search" name="q" type="search" placeholder="Search portfolio content">
+        </form>
+        <div class="admin-user"><span class="admin-user-copy"><strong><?= e($_SESSION['user']['name'] ?? 'Administrator') ?></strong><small>Portfolio owner</small></span><img src="<?= e(asset('images/profile.jpg')) ?>" alt="" width="34" height="34"></div>
+      </header>
+      <div class="admin-content"><?= $content ?></div>
+    </main>
   </div>
 </body>
 </html>

@@ -19,6 +19,6 @@ return [
         'github' => 'https://github.com/', 'linkedin' => 'https://linkedin.com/',
         'x' => 'https://x.com/', 'facebook' => 'https://facebook.com/',
         'cv_file' => 'assets/documents/resume-sathira-sri-sathsara.pdf',
-        'stack' => ['PHP', 'MySQL', 'JavaScript', 'Docker', 'Git'],
+        'stack' => ['PHP', 'MySQL', 'JavaScript', 'Node.js', 'Docker', 'Git'],
     ],
 ];

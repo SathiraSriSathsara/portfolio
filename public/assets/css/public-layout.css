@@ -106,6 +106,16 @@
 
 .cv-download {
     margin-top: var(--space-5);
+    color: var(--color-text-primary);
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 0 !important;
+}
+
+.cv-download:hover {
+    color: #fff;
+    background: var(--color-accent);
+    border-color: var(--color-accent);
 }
 
 @media (max-width: 1050px) {

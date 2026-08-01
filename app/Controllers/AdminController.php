@@ -4,7 +4,14 @@ namespace App\Controllers;
 use App\Services\Slugger;
 final class AdminController extends BaseController
 {
- public function dashboard():string{$counts=$this->pdo->query("SELECT COUNT(*) total,SUM(status='published') published,SUM(status='draft') drafts,SUM(status='scheduled') scheduled FROM posts WHERE deleted_at IS NULL")->fetch();return $this->view('admin/dashboard',['title'=>'Dashboard','counts'=>$counts,'items'=>array_slice($this->posts->adminList(),0,6)],'admin');}
+ public function dashboard():string
+ {
+  $counts=$this->pdo->query("SELECT COUNT(*) total,COALESCE(SUM(status='published'),0) published,COALESCE(SUM(status='draft'),0) drafts,COALESCE(SUM(status='scheduled'),0) scheduled,COALESCE(SUM(status='archived'),0) archived FROM posts WHERE deleted_at IS NULL")->fetch();
+  $resources=$this->pdo->query("SELECT (SELECT COUNT(*) FROM categories) categories,(SELECT COUNT(*) FROM tags) tags,(SELECT COUNT(*) FROM media) media,(SELECT COALESCE(SUM(size),0) FROM media) media_bytes")->fetch();
+  $monthly=$this->pdo->query("SELECT DATE_FORMAT(months.month_start,'%b') label,COUNT(p.id) total FROM (SELECT DATE_FORMAT(DATE_SUB(CURDATE(),INTERVAL 5 MONTH),'%Y-%m-01') month_start UNION ALL SELECT DATE_FORMAT(DATE_SUB(CURDATE(),INTERVAL 4 MONTH),'%Y-%m-01') UNION ALL SELECT DATE_FORMAT(DATE_SUB(CURDATE(),INTERVAL 3 MONTH),'%Y-%m-01') UNION ALL SELECT DATE_FORMAT(DATE_SUB(CURDATE(),INTERVAL 2 MONTH),'%Y-%m-01') UNION ALL SELECT DATE_FORMAT(DATE_SUB(CURDATE(),INTERVAL 1 MONTH),'%Y-%m-01') UNION ALL SELECT DATE_FORMAT(CURDATE(),'%Y-%m-01')) months LEFT JOIN posts p ON p.status='published' AND p.deleted_at IS NULL AND p.published_at>=months.month_start AND p.published_at<DATE_ADD(months.month_start,INTERVAL 1 MONTH) GROUP BY months.month_start ORDER BY months.month_start")->fetchAll();
+  $activity=$this->pdo->query("SELECT a.action,a.entity_type,a.entity_id,a.created_at,u.name user_name FROM audit_logs a LEFT JOIN users u ON u.id=a.user_id ORDER BY a.created_at DESC LIMIT 8")->fetchAll();
+  return $this->view('admin/dashboard',['title'=>'Dashboard','counts'=>$counts,'resources'=>$resources,'monthly'=>$monthly,'activity'=>$activity,'items'=>array_slice($this->posts->adminList(),0,7)],'admin');
+ }
  public function posts():string{return $this->view('admin/posts',['title'=>'Posts','items'=>$this->posts->adminList()],'admin');}
  public function create():string{return $this->view('admin/editor',['title'=>'New post','post'=>null,'categories'=>$this->categories()],'admin');}
  public function edit(string $id):string{$post=$this->posts->adminFind((int)$id);if(!$post){http_response_code(404);return $this->view('errors/404',['title'=>'Post not found']);}return $this->view('admin/editor',['title'=>'Edit post','post'=>$post,'categories'=>$this->categories()],'admin');}
