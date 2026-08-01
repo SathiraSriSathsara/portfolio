@@ -1,0 +1,147 @@
+.admin-nav {
+    width: 240px;
+    background: rgba(9, 11, 16, .92);
+    backdrop-filter: blur(16px);
+}
+
+.admin-nav .brand {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 1.45rem;
+    letter-spacing: -.04em;
+}
+
+.admin-nav-label {
+    margin: var(--space-7) var(--space-3) var(--space-2);
+    color: #697185;
+    font-size: .68rem;
+    font-weight: 800;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.admin-nav nav {
+    gap: var(--space-2);
+    margin: 0 0 auto;
+}
+
+.admin-nav nav a,
+.admin-signout {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    width: 100%;
+    min-height: 48px;
+    padding: .75rem .85rem;
+    color: var(--color-text-secondary);
+    background: transparent;
+    border: 0;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: color .2s ease, background-color .2s ease, transform .2s ease;
+}
+
+.admin-nav nav a:hover,
+.admin-signout:hover {
+    color: var(--color-text-primary);
+    background: var(--color-surface-raised);
+    transform: translateX(3px);
+}
+
+.admin-nav nav a[aria-current="page"] {
+    color: #fff;
+    background: color-mix(in srgb, var(--color-accent) 18%, transparent);
+}
+
+.admin-nav nav a[aria-current="page"]::before {
+    position: absolute;
+    left: 0;
+    width: 3px;
+    height: 22px;
+    content: "";
+    background: var(--color-accent);
+    border-radius: 0 4px 4px 0;
+}
+
+.admin-nav svg,
+.admin-signout svg {
+    width: 19px;
+    height: 19px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.admin-nav nav a:first-child svg {
+    fill: currentColor;
+    stroke: none;
+}
+
+.admin-signout {
+    color: #8e96a8;
+}
+
+.admin-header,
+.stats,
+.admin-content > .panel,
+.admin-content > .editor,
+.admin-content > .settings-form {
+    animation: admin-enter .55s cubic-bezier(.2, .8, .2, 1) both;
+}
+
+.stats { animation-delay: .08s; }
+.admin-content > .panel,
+.admin-content > .editor,
+.admin-content > .settings-form { animation-delay: .16s; }
+
+.stat {
+    position: relative;
+    overflow: hidden;
+    transition: transform .22s ease, border-color .22s ease, background-color .22s ease;
+}
+
+.stat::after {
+    position: absolute;
+    inset: auto 0 0;
+    height: 2px;
+    content: "";
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .22s ease;
+}
+
+.stat:hover {
+    background: var(--color-surface-raised);
+    border-color: #3a4052;
+    transform: translateY(-4px);
+}
+
+.stat:hover::after { transform: scaleX(1); }
+
+@keyframes admin-enter {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 760px) {
+    .admin-nav { width: auto; }
+    .admin-nav-label { display: none; }
+    .admin-nav nav a { flex: 0 0 auto; }
+    .admin-nav nav a:hover { transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .admin-header,
+    .stats,
+    .admin-content > .panel,
+    .admin-content > .editor,
+    .admin-content > .settings-form { animation: none; }
+    .admin-nav nav a,
+    .admin-signout,
+    .stat { transition: none; }
+}
