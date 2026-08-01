@@ -1,0 +1,13 @@
+.auth-page .auth-card,
+.auth-page .auth-card input,
+.auth-page .auth-card button,
+.auth-page .auth-card .button,
+.auth-page .auth-card .alert {
+    border-radius: 0 !important;
+}
+
+.auth-page .auth-card h1 {
+    margin: var(--space-5) 0 var(--space-2);
+    font-size: clamp(1.65rem, 4vw, 2rem);
+    letter-spacing: -.025em;
+}
